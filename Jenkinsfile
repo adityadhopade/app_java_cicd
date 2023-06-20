@@ -6,7 +6,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 gitCheckout(
-                    branch: "main"
+                    branch: "main",
                     url: "https://github.com/adityadhopade/app_java_cicd.git"     
                 )
             }
