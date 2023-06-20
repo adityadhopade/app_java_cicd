@@ -3,7 +3,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Git checkout') {
+        stage('Git Checkout') {
             steps {
                 gitCheckout(
                     branch: "main",
